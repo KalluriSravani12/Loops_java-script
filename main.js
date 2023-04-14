@@ -45,9 +45,36 @@ while(i<=20){
 		}while(i<=20);*/
 
 
-var i=0,s=0;
+/*var i=0,s=0;
 for (var i=1;i<=10;i++){
     s=i*9;
     console.log(s);
 
+}*/
+//Sum of first 20 natural numbers
+/*var i=0,s=0;
+while(i<=20){
+    s=s+i;
+    i++;
 }
+console.log(s);*/
+
+
+//Printing even numbers between 0 and 50
+/*var s=0;
+for (var i=1;i<=50;i++){
+    if (i%2==0){
+        s=s+i;    
+    }
+
+}
+console.log(s);*/
+
+var s=0;
+for (var i=1;i<=50;i++){
+    if (i%7==0){
+    s=s+i;
+}
+}
+console.log(s);
+
